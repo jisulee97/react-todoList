@@ -4,5 +4,6 @@ import jsConfigPath from "vite-jsconfig-paths";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/react-todoList/",
   plugins: [react(), jsConfigPath()],
 });
